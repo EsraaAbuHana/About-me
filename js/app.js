@@ -23,7 +23,7 @@ switch (userInput) {
         break;
     case 'not good':
     case 'bad':
-        alert('i hope now it is become better ');
+        alert('I hope now it is become better ');
         break;
     default:
         break;
@@ -57,7 +57,7 @@ switch (experience) {
     case 'no':
     case 'n':
     case 'never':
-        alert('yes,thats right');
+        alert('yes ,thats right');
         score++;
         break;
 
@@ -125,7 +125,7 @@ switch (old) {
     case 'no':
     case 'n':
     case 'never':
-        alert('Its right ');
+        alert('right guessing ');
         score++;
 
         break;
@@ -195,12 +195,12 @@ else {
         j++;
 
     }
-    alert('No :( ,You have exhausted all your attempts ');
+    alert('No :( ,You have lost all your attempts ');
 }
-alert('these are my best movies list' + movieslist[0] + ', ' + movieslist[1] + ', ' + movieslist[2] + ', ' + movieslist[3] + ', ' + movieslist[4] + ', ' + movieslist[5])
+alert('these are my best movies list  : ' + movieslist[0] + ', ' + movieslist[1] + ', ' + movieslist[2] + ', ' + movieslist[3] + ', ' + movieslist[4] + ', ' + movieslist[5])
 // }
 
 
-alert ('your final score is'+score);
-alert('I hope that you enjoid it bye bye,' + username)
+alert ('Your Final Score Is: '+score);
+alert('I hope that you enjoid it bye bye , ' + username)
 
