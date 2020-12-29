@@ -1,0 +1,45 @@
+
+body {
+    background-color:#66e099 ;
+}
+
+h1 {
+    color:  #1f1f7a
+    ;
+    font-size: 60px;
+}
+
+h2 {color:  #e62e00
+    ;
+    font-size: 40px;
+}
+
+h3, h4, h5, h6 {color: #4d004d
+    ;
+
+}
+li {
+    
+    border: solid 5px rgb(39, 5, 83) ;
+
+     
+    margin: 3px;
+}
+
+.border-style-dotted {
+    border-style:double;
+}
+
+#varaibleItem {
+    border-style: solid;
+}
+div.box {
+    height: 600px;
+    width: 600px;
+    background-color: #1661d1;}
+    p {
+    height: 75%;
+    width: 75%;
+    background-color: #91c0dd;
+    border: double 5px rgb(39, 5, 83) ;
+}
