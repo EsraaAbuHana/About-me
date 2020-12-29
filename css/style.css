@@ -43,3 +43,5 @@ div.box {
     background-color: #91c0dd;
     border: double 5px rgb(39, 5, 83) ;
 }
+td,tr,th {border: solid 2px rgb(10, 1, 22) ;
+}
