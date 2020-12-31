@@ -234,10 +234,11 @@ function qustion7() {
     //     }
 
     // }
+
 daystaute();
 qustion1();
 qustion2();
-qustion3;
+qustion3();
 qustion4();
 qustion5();
 qustion6();
