@@ -9,7 +9,7 @@ function greeting() {
 greeting();
 // var username=('Hello,What is your name?');
 
-
+function daystaute(){
 var userInput = prompt('How was your day tell now?');
 
 
@@ -29,7 +29,9 @@ switch (userInput) {
         break;
 
 }
+}
 1//
+function qustion1(){
 var stablejob = prompt('Did I have a stable job before ?');
 switch (stablejob) {
     case 'yes':
@@ -46,7 +48,9 @@ switch (stablejob) {
         break;
 
 }
+}
 2//
+function qustion2(){
 var experience = prompt('Did I have any experience in  website design before having this course ?');
 switch (experience) {
     case 'yes':
@@ -60,7 +64,7 @@ switch (experience) {
         alert('yes ,thats right');
         score++;
         break;
-
+}
 }
 // var myhobby = prompt('what do you think is my favourite hobby between these:drawing , photographing , reading, hiking ?  ');
 // switch (myhobby) {
@@ -83,6 +87,7 @@ switch (experience) {
 
 // }
 3//
+function qustion3(){
 var myseason = prompt('Is fall my favorite season?')
 switch (myseason) {
     case 'yes':
@@ -98,7 +103,9 @@ switch (myseason) {
         break;
 
 }
+}
 4//
+function qustion4(){ 
 var polymathperson = prompt('Do you think that I am a polymath person?')
 switch (polymathperson) {
     case 'yes':
@@ -113,7 +120,9 @@ switch (polymathperson) {
         alert('its okay -_- -_-');
         break;
 }
+}
 5//
+function qustion5(){
 var old = prompt('Am I 25 years old ?')
 switch (old) {
     case 'yes':
@@ -129,6 +138,7 @@ switch (old) {
         score++;
 
         break;
+}
 }
 
 // var myseason = prompt('What is my favorite season?')
@@ -147,6 +157,7 @@ switch (old) {
 
 // }
 6//
+function qustion6(){
 var i = 0;
 var rightnum = 27
 var guessnum = prompt('try to pick number between 20 to 30')
@@ -179,7 +190,9 @@ while (i < 4) {
         i++;
     }
 }
+}
 7//
+function qustion7(){
 var j = 0
 var bestmovie = prompt('Could you try to guess a name of one of my favourite movies?').toLowerCase();
 var movieslist = ['interstellar', 'inception', 'beautiful mind', 'pay it forward', 'parasite', '12 angry men'];
@@ -198,9 +211,22 @@ else {
     alert('No :( ,You have lost all your attempts ');
 }
 alert('these are my best movies list  : ' + movieslist[0] + ', ' + movieslist[1] + ', ' + movieslist[2] + ', ' + movieslist[3] + ', ' + movieslist[4] + ', ' + movieslist[5])
-// }
-
+}
+daystaute();
+qustion1();
+qustion2();
+qustion3;
+qustion4();
+qustion5();
+qustion6();
+qustion7();
 
 alert ('Your Final Score Is: '+score);
 alert('I hope that you enjoid it bye bye , ' + username)
-
+// we call it indexes , so that its start from 0,and we could add the value in it
+// function called typeof for spicify the kind of data that i want o put in array
+// var numlist =['1', '2','3','4'];
+// var numindex= prompt('please add come number:')
+// for (i=0;i<numlist.length;i++){
+// if (numindex ===numindex[] )
+// }
